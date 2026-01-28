@@ -1,5 +1,6 @@
 import './App.css';
 import React, { useState } from 'react';
+import AddTaskForm from './components/Form';
 import Task from './components/Task';
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
         />
       ))}
 
+      <AddTaskForm /> 
     </div>
   );
 
